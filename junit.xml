@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" time="2.265">
+  <testsuite name="isPermution测试" errors="0" failures="0" skipped="0" timestamp="2020-02-24T00:10:15" time="0.787" tests="3">
+    <testcase classname="isPermution测试 00测试长度不同字符串" name="isPermution测试 00测试长度不同字符串" time="0.002">
+    </testcase>
+    <testcase classname="isPermution测试 01测试互为重排字符串" name="isPermution测试 01测试互为重排字符串" time="0">
+    </testcase>
+    <testcase classname="isPermution测试 01测试不互为重排字符串" name="isPermution测试 01测试不互为重排字符串" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="hasMoslems测试" errors="0" failures="0" skipped="0" timestamp="2020-02-24T00:10:16" time="0.365" tests="3">
+    <testcase classname="hasMoslems测试 00空字符串测试" name="hasMoslems测试 00空字符串测试" time="0.001">
+    </testcase>
+    <testcase classname="hasMoslems测试 01拥有可重排成回文字符串测试" name="hasMoslems测试 01拥有可重排成回文字符串测试" time="0">
+    </testcase>
+    <testcase classname="hasMoslems测试 02没有可重排成回文字符串测试" name="hasMoslems测试 02没有可重排成回文字符串测试" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="isUniqueChars测试" errors="0" failures="0" skipped="0" timestamp="2020-02-24T00:10:16" time="0.092" tests="6">
+    <testcase classname="isUniqueChars测试 00空字符串测试" name="isUniqueChars测试 00空字符串测试" time="0.001">
+    </testcase>
+    <testcase classname="isUniqueChars测试 01无重复字符测试" name="isUniqueChars测试 01无重复字符测试" time="0">
+    </testcase>
+    <testcase classname="isUniqueChars测试 02有重复字符测试" name="isUniqueChars测试 02有重复字符测试" time="0">
+    </testcase>
+    <testcase classname="isUniqueCharsByFor测试 00空字符串测试" name="isUniqueCharsByFor测试 00空字符串测试" time="0.001">
+    </testcase>
+    <testcase classname="isUniqueCharsByFor测试 01无重复字符测试" name="isUniqueCharsByFor测试 01无重复字符测试" time="0">
+    </testcase>
+    <testcase classname="isUniqueCharsByFor测试 02有重复字符测试" name="isUniqueCharsByFor测试 02有重复字符测试" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
