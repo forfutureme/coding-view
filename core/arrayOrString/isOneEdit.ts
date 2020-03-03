@@ -45,5 +45,43 @@ const isOneEdit = (str: string, current: string): boolean => {
 
   return count <= 1
 }
-
+const isEdit = (s1: string, s2: string): boolean => {
+  let different = false
+  for (let i = 0; i < s1.length; i++) {
+    if (s1[i] !== s2[i]) {
+      if (different) {
+        return false
+      }
+      different = true
+    }
+  }
+  return true
+}
+const isInsert = (sF: string, sT: string): boolean => {
+  let i = 0
+  let j = 0
+  while (i < sF.length && j < sT.length) {
+    if (sF[i] !== sT[j]) {
+      if (i !== j) {
+        return false
+      }
+      j++
+    } else {
+      i++
+      j++
+    }
+  }
+  return true
+}
+const isOneEditTwo = (s1: string, s2: string): boolean => {
+  if (s1.length === s2.length) {
+    return isEdit(s1, s2)
+  } else if (s1.length + 1 === s2.length) {
+    return isInsert(s1, s2)
+  } else if (s1.length - 1 === s2.length) {
+    return isInsert(s2, s1)
+  }
+  return false
+}
 export default isOneEdit
+export {isOneEditTwo}

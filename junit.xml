@@ -1,39 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="16" failures="0" time="1.611">
-  <testsuite name="isPermution测试" errors="0" failures="0" skipped="0" timestamp="2020-03-02T10:07:18" time="0.742" tests="8">
-    <testcase classname="isPermution测试 00测试长度不同字符串" name="isPermution测试 00测试长度不同字符串" time="0.001">
+<testsuites name="jest tests" tests="25" failures="0" time="1.493">
+  <testsuite name="hasMoslems测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T00:12:47" time="0.56" tests="3">
+    <testcase classname="hasMoslems测试 00空字符串测试" name="hasMoslems测试 00空字符串测试" time="0.002">
     </testcase>
-    <testcase classname="isPermution测试 01测试互为重排字符串" name="isPermution测试 01测试互为重排字符串" time="0">
+    <testcase classname="hasMoslems测试 01拥有可重排成回文字符串测试" name="hasMoslems测试 01拥有可重排成回文字符串测试" time="0">
     </testcase>
-    <testcase classname="isPermution测试 02测试不互为重排字符串" name="isPermution测试 02测试不互为重排字符串" time="0">
-    </testcase>
-    <testcase classname="isPermution测试 03测试互为重排字符串" name="isPermution测试 03测试互为重排字符串" time="0.001">
-    </testcase>
-    <testcase classname="isPermutionTwo测试 00测试长度不同字符串" name="isPermutionTwo测试 00测试长度不同字符串" time="0">
-    </testcase>
-    <testcase classname="isPermutionTwo测试 01测试互为重排字符串" name="isPermutionTwo测试 01测试互为重排字符串" time="0">
-    </testcase>
-    <testcase classname="isPermutionTwo测试 02测试不互为重排字符串" name="isPermutionTwo测试 02测试不互为重排字符串" time="0">
-    </testcase>
-    <testcase classname="isPermutionTwo测试 03测试互为重排字符串" name="isPermutionTwo测试 03测试互为重排字符串" time="0.001">
+    <testcase classname="hasMoslems测试 02没有可重排成回文字符串测试" name="hasMoslems测试 02没有可重排成回文字符串测试" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="replaceSpace测试" errors="0" failures="0" skipped="0" timestamp="2020-03-02T10:07:18" time="0.904" tests="8">
-    <testcase classname="replaceSpace测试 00测试空字符串" name="replaceSpace测试 00测试空字符串" time="0.002">
+  <testsuite name="isOneEdit测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T00:12:47" time="0.74" tests="22">
+    <testcase classname="isOneEdit测试 00空字符串测试" name="isOneEdit测试 00空字符串测试" time="0.002">
     </testcase>
-    <testcase classname="replaceSpace测试 01测试不带空格的字符" name="replaceSpace测试 01测试不带空格的字符" time="0">
+    <testcase classname="isOneEdit测试 01相等字符串测试" name="isOneEdit测试 01相等字符串测试" time="0.001">
     </testcase>
-    <testcase classname="replaceSpace测试 02测试带一个空格的字符" name="replaceSpace测试 02测试带一个空格的字符" time="0">
+    <testcase classname="isOneEdit测试 02相等字符串测试" name="isOneEdit测试 02相等字符串测试" time="0">
     </testcase>
-    <testcase classname="replaceSpace测试 03测试带二个空格的字符" name="replaceSpace测试 03测试带二个空格的字符" time="0.001">
+    <testcase classname="isOneEdit测试 03相差2个字符测试-1" name="isOneEdit测试 03相差2个字符测试-1" time="0">
     </testcase>
-    <testcase classname="replaceSpaceTwo测试 00测试空字符串" name="replaceSpaceTwo测试 00测试空字符串" time="0">
+    <testcase classname="isOneEdit测试 04相差2个字符测试-2" name="isOneEdit测试 04相差2个字符测试-2" time="0.001">
     </testcase>
-    <testcase classname="replaceSpaceTwo测试 01测试不带空格的字符" name="replaceSpaceTwo测试 01测试不带空格的字符" time="0">
+    <testcase classname="isOneEdit测试 05满足一次编辑测试-1" name="isOneEdit测试 05满足一次编辑测试-1" time="0">
     </testcase>
-    <testcase classname="replaceSpaceTwo测试 02测试带一个空格的字符" name="replaceSpaceTwo测试 02测试带一个空格的字符" time="0.001">
+    <testcase classname="isOneEdit测试 06满足一次编辑测试-2" name="isOneEdit测试 06满足一次编辑测试-2" time="0">
     </testcase>
-    <testcase classname="replaceSpaceTwo测试 03测试带二个空格的字符" name="replaceSpaceTwo测试 03测试带二个空格的字符" time="0">
+    <testcase classname="isOneEdit测试 07满足一次编辑测试-3" name="isOneEdit测试 07满足一次编辑测试-3" time="0.001">
+    </testcase>
+    <testcase classname="isOneEdit测试 07满足一次编辑测试-3" name="isOneEdit测试 07满足一次编辑测试-3" time="0">
+    </testcase>
+    <testcase classname="isOneEdit测试 08不满足一次编辑测试" name="isOneEdit测试 08不满足一次编辑测试" time="0">
+    </testcase>
+    <testcase classname="isOneEdit测试 09不满足一次编辑测试不同位置不同" name="isOneEdit测试 09不满足一次编辑测试不同位置不同" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 00空字符串测试" name="isOneEditTwo测试 00空字符串测试" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 01相等字符串测试" name="isOneEditTwo测试 01相等字符串测试" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 02相等字符串测试" name="isOneEditTwo测试 02相等字符串测试" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 03相差2个字符测试-1" name="isOneEditTwo测试 03相差2个字符测试-1" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 04相差2个字符测试-2" name="isOneEditTwo测试 04相差2个字符测试-2" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 05满足一次编辑测试-1" name="isOneEditTwo测试 05满足一次编辑测试-1" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 06满足一次编辑测试-2" name="isOneEditTwo测试 06满足一次编辑测试-2" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 07满足一次编辑测试-3" name="isOneEditTwo测试 07满足一次编辑测试-3" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 07满足一次编辑测试-3" name="isOneEditTwo测试 07满足一次编辑测试-3" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 08不满足一次编辑测试" name="isOneEditTwo测试 08不满足一次编辑测试" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 09不满足一次编辑测试不同位置不同" name="isOneEditTwo测试 09不满足一次编辑测试不同位置不同" time="0">
     </testcase>
   </testsuite>
 </testsuites>

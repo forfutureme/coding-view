@@ -24,4 +24,6 @@ const hasMoslems = (str: string): boolean => {
   return count === 1 || count === 0
 }
 
+// const toggle = (str: string): number => {}
+
 export default hasMoslems
