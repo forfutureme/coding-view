@@ -22,6 +22,11 @@ const countKey = (o: KeyCount, k: string): number => {
   }
   return count
 }
+/**
+ * 合并字符串
+ * @param arr key的数组
+ * @param o 计算出对应的值的对象
+ */
 const joinStr = (arr: string[], o: {}): string => {
   let str = ''
   for (let i = 0; i < arr.length; i++) {
@@ -55,4 +60,25 @@ const strCompress = (str: string): string => {
   }
   return res
 }
+
+const strCompressTwo = (str: string): string => {
+  let count = 0
+  const arr = []
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charAt(i)
+    const nextCh = str.charAt(i + 1)
+    if (ch !== nextCh) {
+      arr.push(ch)
+      if (count > 1) {
+        arr.push(count)
+      }
+      count = 0
+    }
+    count++
+  }
+  const res = arr.join('')
+  return res.length >= str.length ? str : res
+}
+
 export default strCompress
+export {strCompressTwo}

@@ -83,5 +83,27 @@ const isOneEditTwo = (s1: string, s2: string): boolean => {
   }
   return false
 }
+const isOneEditThree = (sF: string, sT: string): boolean => {
+  const diff = sF.length - sT.length
+  if (Math.abs(diff) > 1) return false
+  const s1 = diff < 0 ? sF : sT
+  const s2 = diff < 0 ? sT : sF
+  let i = 0
+  let j = 0
+  let different = false
+  while (i < s1.length && j < s2.length) {
+    if (s1[i] !== s2[j]) {
+      if (different) return false
+      different = true
+      if (s1.length === s2.length) {
+        i++
+      }
+    } else {
+      i++
+    }
+    j++
+  }
+  return true
+}
 export default isOneEdit
-export {isOneEditTwo}
+export {isOneEditTwo, isOneEditThree}

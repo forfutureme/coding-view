@@ -1,25 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="25" failures="0" time="1.493">
-  <testsuite name="hasMoslems测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T00:12:47" time="0.56" tests="3">
-    <testcase classname="hasMoslems测试 00空字符串测试" name="hasMoslems测试 00空字符串测试" time="0.002">
+<testsuites name="jest tests" tests="57" failures="0" time="3.631">
+  <testsuite name="strCompress测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T23:40:16" time="1.395" tests="20">
+    <testcase classname="strCompress测试 测试一个字符" name="strCompress测试 测试一个字符" time="0.01">
     </testcase>
-    <testcase classname="hasMoslems测试 01拥有可重排成回文字符串测试" name="hasMoslems测试 01拥有可重排成回文字符串测试" time="0">
+    <testcase classname="strCompress测试 测试二个字符" name="strCompress测试 测试二个字符" time="0">
     </testcase>
-    <testcase classname="hasMoslems测试 02没有可重排成回文字符串测试" name="hasMoslems测试 02没有可重排成回文字符串测试" time="0.001">
+    <testcase classname="strCompress测试 测试三个字符" name="strCompress测试 测试三个字符" time="0.001">
+    </testcase>
+    <testcase classname="strCompress测试 测试三个字符2个相同" name="strCompress测试 测试三个字符2个相同" time="0">
+    </testcase>
+    <testcase classname="strCompress测试 测试四个字符2个相同" name="strCompress测试 测试四个字符2个相同" time="0.001">
+    </testcase>
+    <testcase classname="strCompress测试 测试五个字符一个需要压缩" name="strCompress测试 测试五个字符一个需要压缩" time="0">
+    </testcase>
+    <testcase classname="strCompress测试 测试多个字符2个需要压缩" name="strCompress测试 测试多个字符2个需要压缩" time="0.001">
+    </testcase>
+    <testcase classname="strCompress测试 测试多个字符2个需要压缩" name="strCompress测试 测试多个字符2个需要压缩" time="0">
+    </testcase>
+    <testcase classname="strCompress测试 测试多个字符3个需要压缩" name="strCompress测试 测试多个字符3个需要压缩" time="0">
+    </testcase>
+    <testcase classname="strCompress测试 测试多个字符不用压缩" name="strCompress测试 测试多个字符不用压缩" time="0.001">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试一个字符" name="strCompressTwo测试 测试一个字符" time="0.001">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试二个字符" name="strCompressTwo测试 测试二个字符" time="0.022">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试三个字符" name="strCompressTwo测试 测试三个字符" time="0">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试三个字符2个相同" name="strCompressTwo测试 测试三个字符2个相同" time="0.001">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试四个字符2个相同" name="strCompressTwo测试 测试四个字符2个相同" time="0">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试五个字符一个需要压缩" name="strCompressTwo测试 测试五个字符一个需要压缩" time="0.001">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试多个字符2个需要压缩" name="strCompressTwo测试 测试多个字符2个需要压缩" time="0.001">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试多个字符2个需要压缩" name="strCompressTwo测试 测试多个字符2个需要压缩" time="0">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试多个字符3个需要压缩" name="strCompressTwo测试 测试多个字符3个需要压缩" time="0.01">
+    </testcase>
+    <testcase classname="strCompressTwo测试 测试多个字符不用压缩" name="strCompressTwo测试 测试多个字符不用压缩" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="isOneEdit测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T00:12:47" time="0.74" tests="22">
-    <testcase classname="isOneEdit测试 00空字符串测试" name="isOneEdit测试 00空字符串测试" time="0.002">
+  <testsuite name="isOneEdit测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T23:40:16" time="1.499" tests="33">
+    <testcase classname="isOneEdit测试 00空字符串测试" name="isOneEdit测试 00空字符串测试" time="0.014">
     </testcase>
     <testcase classname="isOneEdit测试 01相等字符串测试" name="isOneEdit测试 01相等字符串测试" time="0.001">
     </testcase>
     <testcase classname="isOneEdit测试 02相等字符串测试" name="isOneEdit测试 02相等字符串测试" time="0">
     </testcase>
-    <testcase classname="isOneEdit测试 03相差2个字符测试-1" name="isOneEdit测试 03相差2个字符测试-1" time="0">
+    <testcase classname="isOneEdit测试 03相差2个字符测试-1" name="isOneEdit测试 03相差2个字符测试-1" time="0.001">
     </testcase>
-    <testcase classname="isOneEdit测试 04相差2个字符测试-2" name="isOneEdit测试 04相差2个字符测试-2" time="0.001">
+    <testcase classname="isOneEdit测试 04相差2个字符测试-2" name="isOneEdit测试 04相差2个字符测试-2" time="0">
     </testcase>
-    <testcase classname="isOneEdit测试 05满足一次编辑测试-1" name="isOneEdit测试 05满足一次编辑测试-1" time="0">
+    <testcase classname="isOneEdit测试 05满足一次编辑测试-1" name="isOneEdit测试 05满足一次编辑测试-1" time="0.001">
     </testcase>
     <testcase classname="isOneEdit测试 06满足一次编辑测试-2" name="isOneEdit测试 06满足一次编辑测试-2" time="0">
     </testcase>
@@ -31,27 +65,59 @@
     </testcase>
     <testcase classname="isOneEdit测试 09不满足一次编辑测试不同位置不同" name="isOneEdit测试 09不满足一次编辑测试不同位置不同" time="0">
     </testcase>
-    <testcase classname="isOneEditTwo测试 00空字符串测试" name="isOneEditTwo测试 00空字符串测试" time="0">
+    <testcase classname="isOneEditTwo测试 00空字符串测试" name="isOneEditTwo测试 00空字符串测试" time="0.001">
     </testcase>
-    <testcase classname="isOneEditTwo测试 01相等字符串测试" name="isOneEditTwo测试 01相等字符串测试" time="0">
+    <testcase classname="isOneEditTwo测试 01相等字符串测试" name="isOneEditTwo测试 01相等字符串测试" time="0.002">
     </testcase>
-    <testcase classname="isOneEditTwo测试 02相等字符串测试" name="isOneEditTwo测试 02相等字符串测试" time="0">
+    <testcase classname="isOneEditTwo测试 02相等字符串测试" name="isOneEditTwo测试 02相等字符串测试" time="0.001">
     </testcase>
-    <testcase classname="isOneEditTwo测试 03相差2个字符测试-1" name="isOneEditTwo测试 03相差2个字符测试-1" time="0.001">
+    <testcase classname="isOneEditTwo测试 03相差2个字符测试-1" name="isOneEditTwo测试 03相差2个字符测试-1" time="0">
     </testcase>
-    <testcase classname="isOneEditTwo测试 04相差2个字符测试-2" name="isOneEditTwo测试 04相差2个字符测试-2" time="0">
+    <testcase classname="isOneEditTwo测试 04相差2个字符测试-2" name="isOneEditTwo测试 04相差2个字符测试-2" time="0.001">
     </testcase>
-    <testcase classname="isOneEditTwo测试 05满足一次编辑测试-1" name="isOneEditTwo测试 05满足一次编辑测试-1" time="0">
+    <testcase classname="isOneEditTwo测试 05满足一次编辑测试-1" name="isOneEditTwo测试 05满足一次编辑测试-1" time="0.002">
     </testcase>
-    <testcase classname="isOneEditTwo测试 06满足一次编辑测试-2" name="isOneEditTwo测试 06满足一次编辑测试-2" time="0">
-    </testcase>
-    <testcase classname="isOneEditTwo测试 07满足一次编辑测试-3" name="isOneEditTwo测试 07满足一次编辑测试-3" time="0.001">
+    <testcase classname="isOneEditTwo测试 06满足一次编辑测试-2" name="isOneEditTwo测试 06满足一次编辑测试-2" time="0.001">
     </testcase>
     <testcase classname="isOneEditTwo测试 07满足一次编辑测试-3" name="isOneEditTwo测试 07满足一次编辑测试-3" time="0">
     </testcase>
-    <testcase classname="isOneEditTwo测试 08不满足一次编辑测试" name="isOneEditTwo测试 08不满足一次编辑测试" time="0">
+    <testcase classname="isOneEditTwo测试 07满足一次编辑测试-3" name="isOneEditTwo测试 07满足一次编辑测试-3" time="0">
+    </testcase>
+    <testcase classname="isOneEditTwo测试 08不满足一次编辑测试" name="isOneEditTwo测试 08不满足一次编辑测试" time="0.001">
     </testcase>
     <testcase classname="isOneEditTwo测试 09不满足一次编辑测试不同位置不同" name="isOneEditTwo测试 09不满足一次编辑测试不同位置不同" time="0">
+    </testcase>
+    <testcase classname="isOneEditThree测试 00空字符串测试" name="isOneEditThree测试 00空字符串测试" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditThree测试 01相等字符串测试" name="isOneEditThree测试 01相等字符串测试" time="0">
+    </testcase>
+    <testcase classname="isOneEditThree测试 02相等字符串测试" name="isOneEditThree测试 02相等字符串测试" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditThree测试 03相差2个字符测试-1" name="isOneEditThree测试 03相差2个字符测试-1" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditThree测试 04相差2个字符测试-2" name="isOneEditThree测试 04相差2个字符测试-2" time="0">
+    </testcase>
+    <testcase classname="isOneEditThree测试 05满足一次编辑测试-1" name="isOneEditThree测试 05满足一次编辑测试-1" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditThree测试 06满足一次编辑测试-2" name="isOneEditThree测试 06满足一次编辑测试-2" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditThree测试 07满足一次编辑测试-3" name="isOneEditThree测试 07满足一次编辑测试-3" time="0">
+    </testcase>
+    <testcase classname="isOneEditThree测试 07满足一次编辑测试-3" name="isOneEditThree测试 07满足一次编辑测试-3" time="0.001">
+    </testcase>
+    <testcase classname="isOneEditThree测试 08不满足一次编辑测试" name="isOneEditThree测试 08不满足一次编辑测试" time="0">
+    </testcase>
+    <testcase classname="isOneEditThree测试 09不满足一次编辑测试不同位置不同" name="isOneEditThree测试 09不满足一次编辑测试不同位置不同" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="rotateMatrix单元测试" errors="0" failures="0" skipped="0" timestamp="2020-03-03T23:40:16" time="1.609" tests="4">
+    <testcase classname="rotateMatrix单元测试 测试空数组" name="rotateMatrix单元测试 测试空数组" time="0.004">
+    </testcase>
+    <testcase classname="rotateMatrix单元测试 测试空二维数组" name="rotateMatrix单元测试 测试空二维数组" time="0.001">
+    </testcase>
+    <testcase classname="rotateMatrix单元测试 测试不同长度二维数组" name="rotateMatrix单元测试 测试不同长度二维数组" time="0.005">
+    </testcase>
+    <testcase classname="rotateMatrix单元测试 测试合法的二维数组" name="rotateMatrix单元测试 测试合法的二维数组" time="0">
     </testcase>
   </testsuite>
 </testsuites>
