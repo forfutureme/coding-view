@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" time="0.475">
-  <testsuite name="clearZeroInMatrix测试" errors="0" failures="0" skipped="0" timestamp="2020-03-04T03:25:22" time="0.336" tests="9">
-    <testcase classname="clearZeroInMatrix测试 空数组测试" name="clearZeroInMatrix测试 空数组测试" time="0.001">
+<testsuites name="jest tests" tests="25" failures="0" time="1.515">
+  <testsuite name="letterEctopic测试" errors="0" failures="0" skipped="0" timestamp="2020-04-28T23:43:58" time="0.602" tests="9">
+    <testcase classname="letterEctopic测试 01-单个空字符串判断" name="letterEctopic测试 01-单个空字符串判断" time="0.002">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 小矩阵测试" name="clearZeroInMatrix测试 小矩阵测试" time="0">
+    <testcase classname="letterEctopic测试 02-都是空字符串判断" name="letterEctopic测试 02-都是空字符串判断" time="0.001">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 小中矩阵测试" name="clearZeroInMatrix测试 小中矩阵测试" time="0">
+    <testcase classname="letterEctopic测试 02-字符串不等长度判断" name="letterEctopic测试 02-字符串不等长度判断" time="0">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 小中需要替换矩阵测试" name="clearZeroInMatrix测试 小中需要替换矩阵测试" time="0.001">
+    <testcase classname="letterEctopic测试 03-非异位词测试" name="letterEctopic测试 03-非异位词测试" time="0">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 中矩阵测试" name="clearZeroInMatrix测试 中矩阵测试" time="0">
+    <testcase classname="letterEctopic测试 04-非异位词测试" name="letterEctopic测试 04-非异位词测试" time="0">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 中需要替换矩阵测试" name="clearZeroInMatrix测试 中需要替换矩阵测试" time="0">
+    <testcase classname="letterEctopic测试 05-非异位词测试" name="letterEctopic测试 05-非异位词测试" time="0.001">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 中需要替换矩阵测试" name="clearZeroInMatrix测试 中需要替换矩阵测试" time="0.001">
+    <testcase classname="letterEctopic测试 06-非异位词测试" name="letterEctopic测试 06-非异位词测试" time="0">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 中需要替换矩阵测试" name="clearZeroInMatrix测试 中需要替换矩阵测试" time="0">
+    <testcase classname="letterEctopic测试 07-非异位词测试" name="letterEctopic测试 07-非异位词测试" time="0">
     </testcase>
-    <testcase classname="clearZeroInMatrix测试 中需要替换矩阵测试" name="clearZeroInMatrix测试 中需要替换矩阵测试" time="0">
+    <testcase classname="letterEctopic测试 05-非异位词测试" name="letterEctopic测试 05-非异位词测试" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="stringSwap" errors="0" failures="0" skipped="0" timestamp="2020-04-28T23:43:58" time="0.601" tests="4">
+    <testcase classname="stringSwap 01-基数长度测试" name="stringSwap 01-基数长度测试" time="0.002">
+    </testcase>
+    <testcase classname="stringSwap 02-基数长度测试" name="stringSwap 02-基数长度测试" time="0.001">
+    </testcase>
+    <testcase classname="stringSwap 03-偶数长度测试" name="stringSwap 03-偶数长度测试" time="0">
+    </testcase>
+    <testcase classname="stringSwap 04-偶数长度测试" name="stringSwap 04-偶数长度测试" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="List测试" errors="0" failures="0" skipped="0" timestamp="2020-04-28T23:43:58" time="0.793" tests="12">
+    <testcase classname="List测试 00初始化Lits" name="List测试 00初始化Lits" time="0.002">
+    </testcase>
+    <testcase classname="List测试 01增加元素到链表" name="List测试 01增加元素到链表" time="0.001">
+    </testcase>
+    <testcase classname="List测试 02删除元素到链表-表头" name="List测试 02删除元素到链表-表头" time="0.001">
+    </testcase>
+    <testcase classname="List测试 03删除元素到链表-中间值" name="List测试 03删除元素到链表-中间值" time="0.001">
+    </testcase>
+    <testcase classname="List测试 04删除元素到链表-中间靠后值" name="List测试 04删除元素到链表-中间靠后值" time="0.001">
+    </testcase>
+    <testcase classname="List测试 05删除元素到链表-表尾巴" name="List测试 05删除元素到链表-表尾巴" time="0.003">
+    </testcase>
+    <testcase classname="List测试 06插入元素到链表-表头" name="List测试 06插入元素到链表-表头" time="0.001">
+    </testcase>
+    <testcase classname="List测试 07插入元素到链表-表中" name="List测试 07插入元素到链表-表中" time="0">
+    </testcase>
+    <testcase classname="List测试 08插入元素到链表-表中后" name="List测试 08插入元素到链表-表中后" time="0">
+    </testcase>
+    <testcase classname="List测试 09插入元素到链表-表尾" name="List测试 09插入元素到链表-表尾" time="0">
+    </testcase>
+    <testcase classname="List测试 10插入元素的参照元素不存在" name="List测试 10插入元素的参照元素不存在" time="0">
+    </testcase>
+    <testcase classname="List测试 11根据索引删除-前位溢出" name="List测试 11根据索引删除-前位溢出" time="0">
     </testcase>
   </testsuite>
 </testsuites>
