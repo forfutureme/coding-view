@@ -50,11 +50,13 @@ class List {
       }
       let index = 0
       while (index !== position) {
-        item = item.next
         cache = item
+        item = item.next
         index++
       }
-      if (item.value !== value) return
+      cache.next = item.next
+      this.length--
+      return
     }
     //如果没指定索引，使用输入值作为值查找
     if (position === undefined) {
